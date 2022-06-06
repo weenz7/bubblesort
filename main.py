@@ -1,9 +1,10 @@
 import random
 
-b = int(input('Введите количество элементов:'))
 r = int(input('Введите диапозон чисел:'))
+b = int(input('Введите количество элементов:'))
+
 massive = random.sample(range(r), b)
-#or list(map(int, input().split()))
+#/ list(map(int, input().split()))
 move = 0
 
 for run in range(b-1):
